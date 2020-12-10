@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose')
 
-const mongoUri = process.env.MONGODB_URL //mongodb://localhost:27017/mapaQueer
+const mongoUri = process.env.MONGO_URI //mongodb://localhost:27017/mapaQueer
 
 const connect = () => {
     mongoose.connect(mongoUri, {useNewUrlParser: true, 
