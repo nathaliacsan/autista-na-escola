@@ -44,7 +44,7 @@ const login = async (request, response) => {
     if (!await bcrypt.compare(password, user.password))
         return response.status(400).send({ message: 'Senha inválida.' })
 
-    user.password = undefined
+    //user.password = undefined
 
     return response.status(201).send({
         user,
