@@ -26,10 +26,6 @@ const toValidate = async (request, response) => {
 const addSchool = async (request, response) => {
 
     try {
-        const category = request.body.category
-        if (category === 'pública' || category === 'Pública')
-            return response.status(406).send({ message: 'Não deve conter caracter especial.' })
-
         const school = await schoolCollection.create({...request.body, user: request.userId})
         return response.status(201).send(school)
 
@@ -48,11 +44,11 @@ const findByState = async (request, response) => {
 
             if (state == '') {
                 return response.status(404).send({
-                    message: "Local não encontrado."
+                    message: "Ainda não existem escolas cadastradas nesse estado."
                 })
             } else {
                 return response.status(200).send({
-                    message: "Local encontrado",
+                    message: "Escola encontrada.",
                     state
                 })
         }
