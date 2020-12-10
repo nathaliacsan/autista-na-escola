@@ -10,18 +10,16 @@ const generateToken = (params = {}) => {
 
 const createUser = async (request, response) => {
 
-    
-
     try {
 
-        const {email} = request.body
+        const { email } = request.body
 
-        if (await accountCollections.findOne({email}))
+        if (await accountCollections.findOne({ email }))
             return response.status(400).send({ message: 'Usuário já existe.' })
 
-        
+
         const user = await accountCollections.create(request.body)
-        
+
         user.password = undefined
 
         return response.status(201).send({
@@ -54,6 +52,8 @@ const login = async (request, response) => {
     })
 
 }
+
+
 
 
 module.exports = {

@@ -57,8 +57,32 @@ const login = async (request, response) => {
 
 }
 
+const getAll = async (request, response) => {
+
+    try {
+
+        await accountCollections.find((error, contact) => {
+            if (error) {
+                return response.status(404).send({ message: 'Não existem usuários cadastrados' })
+            } else {
+                return response.status(200).send({
+                    mensagem: "Tudo certo",
+                    contact
+                })
+            }
+
+        })
+
+    } catch (error) {
+
+        return response.status(500).send({ message: error.message })
+    }
+}
+
+
 
 module.exports = {
     createUser,
-    login
+    login,
+    getAll
 }

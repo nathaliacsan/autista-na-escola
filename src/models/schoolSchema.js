@@ -27,9 +27,8 @@ const SchoolSchema = new Schema({
         type: String,
         required: false
     },
-    category: {
+    review: {
         type: String,
-        lowercase: true,
         required: true
     },
     validated: {

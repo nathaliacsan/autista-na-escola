@@ -8,17 +8,18 @@ const getAllValidated = async (request, response) => {
         return response.status(200).send(schools)
 
     } catch (error) {
-        return response.status(400).send({ message: 'Erro ao carregar escolas.' })
+        return response.status(400).send({ message: error.message })
     }
 }
 
 const toValidate = async (request, response) => {
     try {
+        
         const schools = await schoolCollection.find({validated: false}).populate('user').sort({name:1})
         return response.status(200).send(schools)
 
     } catch (error) {
-        return response.status(400).send({ message: 'Erro ao carregar escolas.' })
+        return response.status(400).send({ message: error.message })
     }
 }
 
@@ -37,14 +38,26 @@ const addSchool = async (request, response) => {
     }
 }
 
-const findById = async (request, response) => {
+const findByState = async (request, response) => {
 
     try {
-        const param = request.params.id
 
-        const school = await schoolCollection.findById(param)
+        const query = request.query
 
-        return response.status(200).send(school)
+        await schoolCollection.find(query, (error, state) => {
+
+            if (state == '') {
+                return response.status(404).send({
+                    message: "Local não encontrado."
+                })
+            } else {
+                return response.status(200).send({
+                    message: "Local encontrado",
+                    state
+                })
+        }
+        })
+
     } catch (error) {
         return response.status(400).send({ message: error.message })
     }
@@ -58,8 +71,8 @@ const update = async (request, response) => {
         const update = {new: true}
 
         const school = await schoolCollection.findByIdAndUpdate(param, body, update).populate('user')
-
         return response.status(200).send(school)
+
     } catch (error) {
         return response.status(400).send({ message: error.message })
     }
@@ -87,7 +100,7 @@ module.exports = {
     getAllValidated,
     toValidate,
     addSchool,
-    findById,
+    findByState,
     deleteSchool,
     update
 }
