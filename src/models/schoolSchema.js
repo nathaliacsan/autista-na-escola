@@ -19,6 +19,11 @@ const SchoolSchema = new Schema({
         minlength: 2,
         maxlength: 2
     },
+    city: {
+        type: String,
+        required: true,
+        lowercase: true,
+    },
     address: {
         type: String,
         required: true
