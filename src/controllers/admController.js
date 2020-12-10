@@ -66,7 +66,7 @@ const getAll = async (request, response) => {
                 return response.status(404).send({ message: 'Não existem usuários cadastrados' })
             } else {
                 return response.status(200).send({
-                    mensagem: "Tudo certo",
+                    mensagem: "Lista de usuários:",
                     contact
                 })
             }
