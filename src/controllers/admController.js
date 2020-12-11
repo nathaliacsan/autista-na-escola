@@ -6,7 +6,7 @@ const ADM_PASSWORD = process.env.ADM_PASSWORD
 
 
 const generateToken = (params = {}) => {
-    return jwt.sign(params, SECRET_ADM, { expiresIn: '3h'})
+    return jwt.sign(params, SECRET_ADM, { expiresIn: 86400})
 }
 
 const createUser = async (request, response) => {

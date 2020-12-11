@@ -5,7 +5,7 @@ const SECRET_USER = process.env.SECRET_USER
 
 
 const generateToken = (params = {}) => {
-    return jwt.sign(params, SECRET_USER, { expiresIn: '1h'})
+    return jwt.sign(params, SECRET_USER, { expiresIn: 86400})
 }
 
 const createUser = async (request, response) => {
