@@ -4,8 +4,8 @@ const router = express.Router()
 const reviewController = require('../controllers/reviewController')
 const authUser = require('../middlewares/authUser')
 
-router.post('/review/:id', authUser.auth, reviewController.addReview)
-router.get('/review/:id', authUser.auth, reviewController.getById)
+router.post('/:id', authUser.auth, reviewController.addReview)
+router.get('/all', authUser.auth, reviewController.getAll)
 
 
 module.exports = router

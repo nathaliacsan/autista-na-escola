@@ -18,6 +18,11 @@ const ReviewSchema = new Schema({
         ref: 'account',
         required: true
     },
+    school: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'school',
+        required: true
+    },
     createdAt: {
         type: Date,
         default: Date.now

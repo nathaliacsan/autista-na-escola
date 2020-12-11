@@ -12,7 +12,7 @@ const addReview = async (request, response) => {
             if (!school) {
                 return response.status(404).send({ message: 'Escola não encontrada.' })
             } else {
-                const review = await reviewCollection.create({ ...request.body, user: request.userId })
+                const review = await reviewCollection.create({ ...request.body, user: request.userId, school:request.params.id})
 
                 return response.status(201).send({
                     message: 'Agradecemos por sua avaliação',
@@ -27,13 +27,13 @@ const addReview = async (request, response) => {
 
 }
 
-const getById = async (request, response) => {
+const getAll = async (request, response) => {
 
     try {
-        const id = request.params.id
-        const school = await reviewCollection.findById(id).populate('user')
+        
+        const reviews = await reviewCollection.find()
 
-        return response.status(200).send(school)
+        return response.status(200).send(reviews)
 
     } catch (error) {
         return response.status(400).send({ message: error.message })
@@ -43,5 +43,5 @@ const getById = async (request, response) => {
 
 module.exports = { 
     addReview,
-    getById
+    getAll
  }
