@@ -6,7 +6,7 @@
 <!--ts-->
    * [Descrição](#Descrição)
    * [Aprendizados](#Aprendizado)
-   * [Linguagem, ferramentas e dependêncas](#Linguagem-ferramentas-e-dependêncas)
+   * [Linguagens, ferramentas e dependêncas](#Linguagens-ferramentas-e-dependêncas)
    * [Como iniciar a aplicação na sua máquina](#Como-iniciar-a-aplicação-na-sua-máquina)
    * [Estrutura do projeto](#Estrutura-do-projeto)
    * [Endpoints](#Endpoints)
@@ -17,14 +17,14 @@
 API desenvolvida para o projeto final do curso de Back-End da [{reprograma}](https://reprograma.com.br/) em parceria com a [XP.inc](https://www.xpinc.com/).<br>
 
 A **Autista na Escola** é uma API de cadastro e busca de escolas que trabalham o desenvolvendo e aprendizagem das crianças com Trantorno do Espectro Autista(TRE).<br><br>
-**O objetivo** é auxiliar as famílias a encontrarem uma instituição de forma mais fácil e rápida, evitando a mudança de rotina na vida da criança. Segundo a Faculdade de Medicina da Universidade Federal de Minas Gerais[(UFMG)](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/), com mudanças na rotina, pessoas com TEA podem apresentar alterações no padrão do sono, maior ansiedade e irritabilidade. Apesar de não serem sintomas comuns apenas às pessoas com autismo, os impactos podem ser sentidos de maneira mais intensa por elas.
+**O objetivo** é auxiliar as famílias a encontrarem uma instituição de forma mais fácil e rápida, evitando a mudança desnecessária de rotina na vida da criança. Segundo a Faculdade de Medicina da Universidade Federal de Minas Gerais[(UFMG)](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/), "com mudanças na rotina, pessoas com TEA podem apresentar alterações no padrão do sono, maior ansiedade e irritabilidade. Apesar de não serem sintomas comuns apenas às pessoas com autismo, os impactos podem ser sentidos de maneira mais intensa por elas."
 
 ## Aprendizados
 
-Para construir esse projeto utilizei conteúdos aprendidos no **4 meses** de curso, sendo pelas professoras ou através de monitoras ex-alunas do curso que compartilhavam conhecimento.<br>
-Lógica de programação, JavaScript, Node.js, CRUD(Create, Read, Update, Delete), API REST, Try Catch, Funções Assíncronas, Banco de dados NoSQL(MongoDB), Padrão MVC, Autenticação. 
+Para construir esse projeto utilizei conteúdos aprendidos nos **4 meses** de curso, sendo ensinados pelas professoras ou através de monitoras ex-alunas do curso que compartilhavam conhecimento.<br><br>
+`Lógica de programação`, `JavaScript`, `Node.js`, `CRUD(Create, Read, Update, Delete)`, `API REST`, `Try Catch`, `Funções Assíncronas`, `Banco de dados NoSQL(MongoDB)`, `Padrão MVC`, `Autenticação`. 
 
-## Linguagem, ferramentas e dependêncas
+## Linguagens, ferramentas e dependêncas
 
 Para a construção do projeto, foi utilizado:
 
@@ -154,3 +154,6 @@ GET| /review/:id | Usuário | Retorna as avaliações.<br><br>
     "comment": "Adoro essa escola."
 }
 ```
+
+#### Contato
+- nathaliacsan@gmail.com
