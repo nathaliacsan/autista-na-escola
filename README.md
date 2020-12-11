@@ -11,6 +11,7 @@
    * [Estrutura do projeto](#Estrutura-do-projeto)
    * [Endpoints](#Endpoints)
    * [Modelo de preenchimento de campos](#Modelo-de-preenchimento-de-campos)
+   * [Contato](#Contato)
 
 ## Descrição
 
