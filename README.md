@@ -108,7 +108,7 @@ GET | /schools/state | Usuários cadastrados| Busca as escolas por estado atrav�
 DELETE | /schools/:id | Administrador | Deleta a escola passada por id.
 PUT | /schools/:id | Administrador| Altera uma escola.
 POST| /review/:id | Usuário | Adiciona uma avaliação sobre a escola.
-GET| /review/:id | Usuário | Retorna as avaliações.<br><br>
+GET| /review/all | Usuário | Retorna as avaliações.<br><br>
 
 
 ## Modelo de preenchimento de campos
