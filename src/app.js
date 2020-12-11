@@ -15,11 +15,13 @@ const index = require('./routes/index')
 const admAccount = require('./routes/admRoutes')
 const schools = require('./routes/schoolRoutes')
 const userAccount = require('./routes/userRoutes')
+const review = require('./routes/reviewRoutes')
 
 app.use('/', index)
 app.use('/accounts/adm', admAccount)
 app.use('/accounts', userAccount)
 app.use('/schools', schools)
+app.use('/review', review)
 
   
 

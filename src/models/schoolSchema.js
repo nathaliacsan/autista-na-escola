@@ -3,11 +3,6 @@ const Schema = mongoose.Schema
 
 const SchoolSchema = new Schema({
 
-    _id: {
-        type: mongoose.Schema.Types.ObjectId, // tipo de dado dentro do Mongoose, de Id
-        auto: true,
-        required: true
-    },
     name: {
         type: String,
         required: true

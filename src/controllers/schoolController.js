@@ -1,4 +1,3 @@
-const authMiddleware = require('../middlewares/authAdm')
 const schoolCollection = require('../models/schoolSchema')
 
 const getAllValidated = async (request, response) => {

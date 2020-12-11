@@ -1,6 +1,7 @@
 const express = require("express")
 const router = express.Router()
 const schoolController = require('../controllers/schoolController')
+const reviewController = require('../controllers/reviewController')
 const authAdm = require('../middlewares/authAdm')
 const authUser = require('../middlewares/authUser')
 
@@ -12,6 +13,7 @@ router.post('/create', authUser.auth, schoolController.addSchool)
 router.get('/state', authUser.auth, schoolController.findByState)
 router.delete('/:id', authAdm.auth, schoolController.deleteSchool)
 router.put('/:id', authAdm.auth, schoolController.update)
+
 
 
 module.exports = router
