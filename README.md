@@ -59,6 +59,9 @@ Para a construção do projeto, foi utilizado:
             \--📂 node_modules
             \--📂src
                 |
+                📂---configs
+                |      database.js
+                |
                 📂---controller
                 |      admController.js
                 |      reviewController.js
