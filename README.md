@@ -18,7 +18,7 @@
 API desenvolvida para o projeto final do curso de Back-End da [{reprograma}](https://reprograma.com.br/) em parceria com a [XP.inc](https://www.xpinc.com/).<br>
 
 A **Autista na Escola** é uma API de cadastro e busca de escolas que trabalham o desenvolvendo e aprendizagem das crianças com Trantorno do Espectro Autista(TEA). Com ela é possível também avaliar uma escola cadastrada para garantir a legitimidade e buscar por estado.<br><br>
-Atualmente nem todas as escolas estão preparadas para receber o aluno. Segundo um recente estudo da Universidade de Mogi das Cruzes os professores ainda enfrentam dificuldades na hora de educar os alunos com TEA e citam o que ainda pode ser evoluído: "os métodos que são
+Atualmente nem todas as escolas estão preparadas para receber o aluno. Segundo um recente estudo da Universidade de Mogi das Cruzes, os professores ainda enfrentam dificuldades na hora de educar os alunos com TEA e citam o que ainda pode ser evoluído: "os métodos que são
 utilizados em sala, a falta de outro profissional que auxilie o educador como forma de
 proporcionar uma educação de qualidade sem que haja a discriminação do aluno com TEA,
 quantidade de alunos em sala e também a formação dos profissionais que atuam com as
