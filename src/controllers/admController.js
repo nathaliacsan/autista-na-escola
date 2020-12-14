@@ -71,7 +71,7 @@ const getAll = async (request, response) => {
                 })
             }
 
-        })
+        }).sort({name:1})
 
     } catch (error) {
 

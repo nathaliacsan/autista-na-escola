@@ -22,7 +22,7 @@ const addReview = async (request, response) => {
             }
 
     } catch (error) {
-        return response.status(400).send({ message: error.message })
+        return response.status(400).send({ message: 'A nota deve ser de 1 a 5.' })
     }
 
 }

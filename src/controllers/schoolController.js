@@ -15,6 +15,7 @@ const toValidate = async (request, response) => {
     try {
         
         const schools = await schoolCollection.find({validated: false}).populate('user').sort({name:1})
+
         return response.status(200).send(schools)
 
     } catch (error) {
@@ -29,7 +30,7 @@ const addSchool = async (request, response) => {
         return response.status(201).send(school)
 
     } catch (error) {
-        return response.status(400).send({ message: error.message })
+        return response.status(400).send({ message: 'Todos os campos obrigatórios devem ser preenchidos.' })
     }
 }
 
@@ -69,7 +70,7 @@ const update = async (request, response) => {
         return response.status(200).send(school)
 
     } catch (error) {
-        return response.status(400).send({ message: error.message })
+        return response.status(400).send({ message: 'Id não encontrado.' })
     }
 }
 
@@ -80,13 +81,13 @@ const deleteSchool = async (request, response) => {
         const param = request.params.id
 
         const school = await schoolCollection.findByIdAndRemove(param)
-
+        
         return response.status(200).send({
-            message: 'Deletado com sucesso', 
+            message: 'Deletado com sucesso.', 
             school})
 
     } catch (error) {
-        return response.status(400).send({ message: error.message })
+        return response.status(400).send({ message: 'Erro ao deletar.' })
     }
 }
 

@@ -17,8 +17,14 @@
 
 API desenvolvida para o projeto final do curso de Back-End da [{reprograma}](https://reprograma.com.br/) em parceria com a [XP.inc](https://www.xpinc.com/).<br>
 
-A **Autista na Escola** é uma API de cadastro e busca de escolas que trabalham o desenvolvendo e aprendizagem das crianças com Trantorno do Espectro Autista(TRE).<br><br>
-**O objetivo** é auxiliar as famílias a encontrarem uma instituição de forma mais fácil e rápida, evitando a mudança desnecessária de rotina na vida da criança. Segundo a Faculdade de Medicina da Universidade Federal de Minas Gerais[(UFMG)](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/), "com mudanças na rotina, pessoas com TEA podem apresentar alterações no padrão do sono, maior ansiedade e irritabilidade. Apesar de não serem sintomas comuns apenas às pessoas com autismo, os impactos podem ser sentidos de maneira mais intensa por elas."
+A **Autista na Escola** é uma API de cadastro e busca de escolas que trabalham o desenvolvendo e aprendizagem das crianças com Trantorno do Espectro Autista(TEA). Com ela é possível também avaliar uma escola cadastrada para garantir a legitimidade e buscar por estado.<br><br>
+Atualmente nem todas as escolas estão preparadas para receber o aluno. Segundo um recente estudo da Universidade de Mogi das Cruzes os professores ainda enfrentam dificuldades na hora de educar os alunos com TEA e citam o que ainda pode ser evoluído: "os métodos que são
+utilizados em sala, a falta de outro profissional que auxilie o educador como forma de
+proporcionar uma educação de qualidade sem que haja a discriminação do aluno com TEA,
+quantidade de alunos em sala e também a formação dos profissionais que atuam com as
+crianças, para assim, haver uma inclusão efetiva dela no contexto escolar e social." <br>Clique aqui para ler as máterias: [[1]](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/), [[2]](http://seer.umc.br/index.php/revistaumc/article/download/1501/953)<br><br>
+**O objetivo** é auxiliar as famílias a encontrarem uma instituição de forma mais fácil e rápida, evitando a mudança desnecessária de rotina na vida da criança. Segundo a Faculdade de Medicina da Universidade Federal de Minas Gerais(UFMG), "com mudanças na rotina, pessoas com TEA podem apresentar alterações no padrão do sono, maior ansiedade e irritabilidade. Apesar de não serem sintomas comuns apenas às pessoas com autismo, os impactos podem ser sentidos de maneira mais intensa por elas."<br><br>
+
 
 ## Aprendizados
 
