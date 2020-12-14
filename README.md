@@ -22,7 +22,7 @@ Atualmente nem todas as escolas estão preparadas para receber o aluno. Segundo 
 utilizados em sala, a falta de outro profissional que auxilie o educador como forma de
 proporcionar uma educação de qualidade sem que haja a discriminação do aluno com TEA,
 quantidade de alunos em sala e também a formação dos profissionais que atuam com as
-crianças, para assim, haver uma inclusão efetiva dela no contexto escolar e social." <br>Clique aqui para ler as máterias: [[1]](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/), [[2]](http://seer.umc.br/index.php/revistaumc/article/download/1501/953)<br><br>
+crianças, para assim, haver uma inclusão efetiva dela no contexto escolar e social." <br>Clique aqui para ler as máterias: , [[1]](http://seer.umc.br/index.php/revistaumc/article/download/1501/953), [[2]](https://www.medicina.ufmg.br/atividades-virtuais-durante-a-pandemia-sao-desafios-para-criancas-com-autismo/)<br><br>
 **O objetivo** é auxiliar as famílias a encontrarem uma instituição de forma mais fácil e rápida, evitando a mudança desnecessária de rotina na vida da criança. Segundo a Faculdade de Medicina da Universidade Federal de Minas Gerais(UFMG), "com mudanças na rotina, pessoas com TEA podem apresentar alterações no padrão do sono, maior ansiedade e irritabilidade. Apesar de não serem sintomas comuns apenas às pessoas com autismo, os impactos podem ser sentidos de maneira mais intensa por elas."<br><br>
 
 
